@@ -67,14 +67,20 @@ No requiere instalación. Descarga los dos archivos y colócalos en la misma car
 
 ---
 
-## Aviso de seguridad de Windows
+## Aviso de SmartScreen al ejecutar
 
-Al descargar el `.bat` desde internet, Windows puede mostrar un aviso la primera vez. Es normal para cualquier archivo descargado. Para ejecutarlo:
+Al descargar el `.bat` desde internet, Windows mostrará este aviso la primera vez:
 
-1. Clic derecho sobre `Abrir_GestorCertificados.bat`
-2. **Propiedades**
-3. Marcar **"Desbloquear"** en la parte inferior → Aceptar
-4. Ya puedes hacer doble clic con normalidad
+> *"Windows protegió su PC — SmartScreen de Microsoft Defender impidió el inicio de una aplicación desconocida"*
+
+Es normal para cualquier archivo descargado que no tenga firma de código comercial. Para ejecutarlo:
+
+1. Haz clic en **"Más información"**
+2. Haz clic en **"Ejecutar de todas formas"**
+
+Solo ocurre una vez. A partir de ahí el archivo se ejecuta directamente.
+
+> El código fuente está disponible en este repositorio para que puedas revisar exactamente qué hace antes de ejecutarlo.
 
 ---
 
@@ -86,4 +92,4 @@ Sí. El código fuente está disponible aquí para que cualquiera pueda revisarl
 
 ## Licencia
 
-Uso libre. Puedes compartirlo, modificarlo y distribuirlo sin restricciones.
+MIT — Uso libre. Puedes usar, copiar, modificar y distribuir este proyecto sin restricciones, incluso en proyectos comerciales. Solo se pide mantener el aviso de autoría original.
